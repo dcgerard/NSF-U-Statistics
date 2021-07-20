@@ -1,4 +1,4 @@
-# NSF-U-Statistics
+# A U-statistic approach to population genetics
 
 [![NSF-2132247](https://img.shields.io/badge/NSF-2132247-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2132247)
 
