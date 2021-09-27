@@ -50,7 +50,9 @@ National Science Foundation.
         after one or several rounds of random mating, given rates of
         double reduction. You can read about these methods in
         Gerard (2021).
--   The `phwelike` R package: <https://github.com/dcgerard/phwelike>
+-   The `phwelike` R package
+    ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
+    <https://github.com/dcgerard/phwelike>
     -   This package takes the methods developed and written by Jiang,
         Ren, and Wu (2021) and implements them in the form of an R
         package. This will allow researchers, such as myself, to better
@@ -58,10 +60,13 @@ National Science Foundation.
 
 ## Reproducible Research
 
--   <https://github.com/dcgerard/hwesims>: This code repository contains
-    all the scripts necessary to reproduce the results from
-    Gerard (2021). We emphasize extreme reproducibilty by providing
-    executable, and linked, code and data.
+-   Results from Gerard (2021)
+    ([doi:10.5281/zenodo.5531872](https://doi.org/10.5281/zenodo.5531872)):
+    <https://github.com/dcgerard/hwesims>
+    -   This code repository contains all the scripts necessary to
+        reproduce the results from Gerard (2021). We emphasize extreme
+        reproducibilty by providing executable, and linked, code and
+        data.
 
 ## Education Materials
 

@@ -57,7 +57,7 @@ This repository contains material based upon work supported by the National Scie
       several rounds of random mating, given rates of double
       reduction. You can read about these methods in @gerard2021double.
 
-- The `phwelike` R package: <https://github.com/dcgerard/phwelike>
+- The `phwelike` R package ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)): <https://github.com/dcgerard/phwelike> 
     - This package takes the methods developed and written by
       @jiang2021computational and implements them in the form of an R
       package.  This will allow researchers, such as myself, to better
@@ -65,10 +65,10 @@ This repository contains material based upon work supported by the National Scie
 
 ## Reproducible Research
 
-- <https://github.com/dcgerard/hwesims>: This code repository contains
-  all the scripts necessary to reproduce the results from @gerard2021double.
-  We emphasize extreme reproducibilty by providing
-  executable, and linked, code and data.
+- Results from @gerard2021double ([doi:10.5281/zenodo.5531872](https://doi.org/10.5281/zenodo.5531872)): <https://github.com/dcgerard/hwesims>
+    - This code repository contains all the scripts necessary to reproduce
+      the results from @gerard2021double. We emphasize extreme reproducibilty 
+      by providing executable, and linked, code and data.
 
 ## Education Materials
 
