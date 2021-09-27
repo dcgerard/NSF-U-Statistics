@@ -14,7 +14,8 @@ National Science Foundation.
 
 ## Manuscripts
 
--   Gerard (2021): Read the paper here: \[URL TO BE Provided\]
+-   Gerard (2021): Read the paper here:
+    <https://doi.org/10.1101/2021.09.24.461731>
     -   **Abstract**: Many bioinformatics pipelines include tests for
         equilibrium. Tests for diploids are well studied and widely
         available, but extending these approaches to autopolyploids is
@@ -71,7 +72,8 @@ National Science Foundation.
 <div id="ref-gerard2021double" class="csl-entry">
 
 Gerard, David. 2021. “Double Reduction Estimation and Equilibrium Tests
-in Natural Autopolyploid Populations.” *Unpublished Manuscript*.
+in Natural Autopolyploid Populations.” *bioRxiv*.
+<https://doi.org/10.1101/2021.09.24.461731>.
 
 </div>
 

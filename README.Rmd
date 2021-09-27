@@ -22,7 +22,7 @@ This repository contains material based upon work supported by the National Scie
 
 ## Manuscripts
 
-- @gerard2021double: Read the paper here: [URL TO BE Provided]
+- @gerard2021double: Read the paper here: <https://doi.org/10.1101/2021.09.24.461731>
     - **Abstract**: Many bioinformatics pipelines include tests for
 	  equilibrium. Tests for diploids are well studied and widely
 	  available, but extending these approaches to autopolyploids is
