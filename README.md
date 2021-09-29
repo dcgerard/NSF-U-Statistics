@@ -39,7 +39,7 @@ National Science Foundation.
 
 ## Software
 
--   The `hwep` R package: <https://github.com/dcgerard/hwep>
+-   The `hwep` R package: <https://cran.r-project.org/package=hwep>
     -   Inference concerning equilibrium and random mating in
         autopolyploids. Methods are available to test for equilibrium
         and random mating at any even ploidy level (&gt;2) in the
