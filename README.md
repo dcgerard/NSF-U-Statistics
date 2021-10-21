@@ -42,14 +42,13 @@ National Science Foundation.
 -   The `hwep` R package: <https://cran.r-project.org/package=hwep>
     -   Inference concerning equilibrium and random mating in
         autopolyploids. Methods are available to test for equilibrium
-        and random mating at any even ploidy level (&gt;2) in the
-        presence of double reduction at biallelic loci. For
-        autopolyploid populations in equilibrium, methods are available
-        to estimate the degree of double reduction. We also provide
-        functions to calculate genotype frequencies at equilibrium, or
-        after one or several rounds of random mating, given rates of
-        double reduction. You can read about these methods in
-        Gerard (2021).
+        and random mating at any even ploidy level (>2) in the presence
+        of double reduction at biallelic loci. For autopolyploid
+        populations in equilibrium, methods are available to estimate
+        the degree of double reduction. We also provide functions to
+        calculate genotype frequencies at equilibrium, or after one or
+        several rounds of random mating, given rates of double
+        reduction. You can read about these methods in Gerard (2021).
 -   The `phwelike` R package
     ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
     <https://github.com/dcgerard/phwelike>
@@ -67,6 +66,13 @@ National Science Foundation.
         reproduce the results from Gerard (2021). We emphasize extreme
         reproducibilty by providing executable, and linked, code and
         data.
+
+## Presentations
+
+-   [doi:10.5281/zenodo.5589844](https://doi.org/10.5281/zenodo.5589844):
+    Slides for a presentation at the American University Department of
+    Mathematics and Statistics Colloquium on 2021-10-19. This work is
+    based on Gerard (2021).
 
 ## Education Materials
 
