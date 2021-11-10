@@ -76,6 +76,10 @@ National Science Foundation.
 
 ## Education Materials
 
+-   [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
+    -   This course is in the process of being prepared to be taught
+        during the Spring semester of 2022 at American University.
+
 ## References
 
 <div id="refs" class="references csl-bib-body hanging-indent">
