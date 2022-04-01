@@ -73,10 +73,11 @@ This repository contains material based upon work supported by the National Scie
 ## Presentations
 
 - [doi:10.5281/zenodo.5589844](https://doi.org/10.5281/zenodo.5589844): Slides for a presentation at the American University Department of Mathematics and Statistics Colloquium on 2021-10-19. This work is based on @gerard2021double.
+- [PAG 2022 Poster](https://pag.confex.com/pag/xxix/meetingapp.cgi/Paper/43285): Virtual poster presentation at the 2022 Plant & Animal Genome Conference.
 
 ## Education Materials
 
 - [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
-    - This course is in the process of being prepared to be taught during the Spring semester of 2022 at American University.
+    - This course prepares students for software development using the R statistical programming language. Topics include: version control via git and its command line interface, package development, unit testing, base R data structures, environments, object oriented programming via S3 and S4, metaprogramming, interfacing with C++ via Rcpp, parallel processing with futures, and batch scheduling jobs via LSF. This course was taught during the Spring semester of 2022 at American University. All materials that I created for this course are under a CC BY-NC 4.0 license, so you are free to use them for non-commercial purposes as long as you provide attribution.
 
 ## References
