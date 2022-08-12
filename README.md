@@ -77,6 +77,11 @@ National Science Foundation.
     Poster](https://pag.confex.com/pag/xxix/meetingapp.cgi/Paper/43285):
     Virtual poster presentation at the 2022 Plant & Animal Genome
     Conference.
+-   [JSM 2022 Poster](https://doi.org/10.5281/zenodo.6987179): This
+    poster was presented by D. Thomas Scartz at the 2022 Joint
+    Statistical Meetings in Washington, DC. You can see the abstract for
+    the poster
+    [here](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322319).
 
 ## Education Materials
 
@@ -92,6 +97,19 @@ National Science Foundation.
         materials that I created for this course are under a CC BY-NC
         4.0 license, so you are free to use them for non-commercial
         purposes as long as you provide attribution.
+-   [Genetic Data Analysis](https://dcgerard.github.io/gda/)
+    -   This website contains a series of hand-written lecture notes I
+        created for my research group on basic genetic data analysis.
+        Topics include genotype and allele frequency estimation,
+        Hardy-Weinberg equilibrium testing, linkage disequilibrium
+        testing and estimation, maximum likelihood estimation and the
+        expectation-maximization algorithm, basic Bayesian inference,
+        genetic drift and mutation (including in the context of
+        molecular evolution), coalescent theory, inbreeding, and
+        population subdivision. I also have a few lectures on classic
+        research papers. This material is under a CC BY-NC 4.0 license,
+        so you can use them for non-commercial purposes as long as you
+        provide attribution.
 
 ## References
 
