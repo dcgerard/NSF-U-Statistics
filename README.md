@@ -14,10 +14,10 @@ National Science Foundation.
 
 ## Manuscripts
 
--   Gerard (2022): Read the paper
+-   Gerard (2022b): Read the paper
     [doi:10.1111/biom.13722](https://doi.org/10.1111/biom.13722) or the
     preprint version
-    [bioRxiv:10.1111/biom.13722](https://doi.org/10.1101/2021.09.24.461731)
+    [bioRxiv:2021.09.24.461731](https://doi.org/10.1101/2021.09.24.461731)
     -   **Abstract**: Many bioinformatics pipelines include tests for
         equilibrium. Tests for diploids are well studied and widely
         available, but extending these approaches to autopolyploids is
@@ -36,6 +36,31 @@ National Science Foundation.
         bootstrap procedure based on our *U*-statistic to test for
         equilibrium. We validate our methods on both simulated and real
         data.
+-   Gerard (2022a): Read the preprint version
+    [bioRxiv:2022.08.11.503635](https://doi.org/10.1101/2022.08.11.503635)
+    -   **Abstract**: Hardy-Weinberg equilibrium is often explored to
+        evaluate the assumption of random mating. However, in
+        autopolyploids, organisms with more than two sets of homologous
+        chromosomes, Hardy-Weinberg equilibrium and random mating are
+        different hypotheses that require different statistical testing
+        approaches. Currently, the only available methods to test for
+        random mating in autopolyploids (i) heavily rely on asymptotic
+        approximations and (ii) assume genotypes are known, ignoring
+        genotype uncertainty. Furthermore, these approaches are all
+        frequentist, and so do not carry the benefits of Bayesian
+        analysis, including ease of interpretability, incorporation of
+        prior information, and consistency under the null. Here, we
+        present Bayesian approaches to test for random mating, bringing
+        the benefits of Bayesian analysis to this problem. Our Bayesian
+        methods also (i) do not rely on asymptotic approximations, being
+        appropriate for small sample sizes, and (ii) optionally account
+        for genotype uncertainty via genotype likelihoods. We validate
+        our methods in simulations, and demonstrate on two real datasets
+        how testing for random mating is more useful than testing for
+        equilibrium (in a natural population) and testing for Mendelian
+        segregation (in an experimental S1 population). Our methods are
+        implemented in Version 2.0.0 of the hwep R package on GitHub
+        <https://github.com/dcgerard/hwep>.
 
 ## Software
 
@@ -48,7 +73,8 @@ National Science Foundation.
         the degree of double reduction. We also provide functions to
         calculate genotype frequencies at equilibrium, or after one or
         several rounds of random mating, given rates of double
-        reduction. You can read about these methods in Gerard (2022).
+        reduction. You can read about these methods in Gerard (2022b)
+        and Gerard (2022a).
 -   The `phwelike` R package
     ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
     <https://github.com/dcgerard/phwelike>
@@ -59,20 +85,24 @@ National Science Foundation.
 
 ## Reproducible Research
 
--   Results from Gerard (2022)
+-   Results from Gerard (2022b)
     ([doi:10.5281/zenodo.5531872](https://doi.org/10.5281/zenodo.5531872)):
     <https://github.com/dcgerard/hwesims>
     -   This code repository contains all the scripts necessary to
-        reproduce the results from Gerard (2022). We emphasize extreme
+        reproduce the results from Gerard (2022b). We emphasize extreme
         reproducibilty by providing executable, and linked, code and
         data.
+-   Results from Gerard (2022a):
+    <https://github.com/dcgerard/rmbayes_sims>
+    -   This code repository reproduces all of the results from Gerard
+        (2022a), including simulations and real-data analyses.
 
 ## Presentations
 
 -   [doi:10.5281/zenodo.5589844](https://doi.org/10.5281/zenodo.5589844):
     Slides for a presentation at the American University Department of
     Mathematics and Statistics Colloquium on 2021-10-19. This work is
-    based on Gerard (2022).
+    based on Gerard (2022b).
 -   [PAG 2022
     Poster](https://pag.confex.com/pag/xxix/meetingapp.cgi/Paper/43285):
     Virtual poster presentation at the 2022 Plant & Animal Genome
@@ -115,10 +145,17 @@ National Science Foundation.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
+<div id="ref-gerard2022bayesian" class="csl-entry">
+
+Gerard, David. 2022a. “Bayesian Tests for Random Mating in
+Autopolyploids.” *bioRxiv*. <https://doi.org/10.1101/2022.08.11.503635>.
+
+</div>
+
 <div id="ref-gerard2022double" class="csl-entry">
 
-Gerard, David. 2022. “Double Reduction Estimation and Equilibrium Tests
-in Natural Autopolyploid Populations.” *Biometrics* In press.
+———. 2022b. “Double Reduction Estimation and Equilibrium Tests in
+Natural Autopolyploid Populations.” *Biometrics* In press.
 <https://doi.org/10.1111/biom.13722>.
 
 </div>
