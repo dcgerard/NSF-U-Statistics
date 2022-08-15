@@ -85,14 +85,15 @@ National Science Foundation.
 
 ## Reproducible Research
 
--   Results from Gerard (2022b)
-    ([doi:10.5281/zenodo.5531872](https://doi.org/10.5281/zenodo.5531872)):
+-   Results from Gerard (2022b):
+    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5531872.svg)](https://doi.org/10.5281/zenodo.5531872)
     <https://github.com/dcgerard/hwesims>
     -   This code repository contains all the scripts necessary to
         reproduce the results from Gerard (2022b). We emphasize extreme
         reproducibilty by providing executable, and linked, code and
         data.
 -   Results from Gerard (2022a):
+    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6993722.svg)](https://doi.org/10.5281/zenodo.6993722)
     <https://github.com/dcgerard/rmbayes_sims>
     -   This code repository reproduces all of the results from Gerard
         (2022a), including simulations and real-data analyses.

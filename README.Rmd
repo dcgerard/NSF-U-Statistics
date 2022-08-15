@@ -50,12 +50,12 @@ This repository contains material based upon work supported by the National Scie
 
 ## Reproducible Research
 
-- Results from @gerard2022double ([doi:10.5281/zenodo.5531872](https://doi.org/10.5281/zenodo.5531872)): <https://github.com/dcgerard/hwesims>
+- Results from @gerard2022double: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5531872.svg)](https://doi.org/10.5281/zenodo.5531872) <https://github.com/dcgerard/hwesims>
     - This code repository contains all the scripts necessary to reproduce
       the results from @gerard2022double. We emphasize extreme reproducibilty 
       by providing executable, and linked, code and data.
       
-- Results from @gerard2022bayesian: <https://github.com/dcgerard/rmbayes_sims>
+- Results from @gerard2022bayesian: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6993722.svg)](https://doi.org/10.5281/zenodo.6993722) <https://github.com/dcgerard/rmbayes_sims>
     - This code repository reproduces all of the results from @gerard2022bayesian, including simulations and real-data analyses.
       
 ## Presentations
