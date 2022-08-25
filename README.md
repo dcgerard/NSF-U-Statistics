@@ -129,6 +129,7 @@ National Science Foundation.
         (2022a), including simulations and real-data analyses.
 -   Results from Gerard (2022b):
     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205)
+    <https://github.com/dcgerard/hwesupp>
     -   This code repository reproduces all of the results from Gerard
         (2022b) in the form of an interactive R markdown file.
 

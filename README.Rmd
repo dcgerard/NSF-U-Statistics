@@ -62,7 +62,7 @@ This repository contains material based upon work supported by the National Scie
     - This code repository reproduces all of the results from @gerard2022bayesian, including simulations and real-data analyses.
     
 - Results from @gerard2022comment:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205) <https://github.com/dcgerard/hwesupp>
     - This code repository reproduces all of the results from @gerard2022comment in the form of an interactive R markdown file.
       
 ## Presentations
