@@ -14,7 +14,7 @@ National Science Foundation.
 
 ## Manuscripts
 
--   Gerard (2022b): Read the paper
+-   Gerard (2022c): Read the paper
     [doi:10.1111/biom.13722](https://doi.org/10.1111/biom.13722) or the
     preprint version
     [bioRxiv:2021.09.24.461731](https://doi.org/10.1101/2021.09.24.461731)
@@ -61,6 +61,25 @@ National Science Foundation.
         segregation (in an experimental S1 population). Our methods are
         implemented in Version 2.0.0 of the hwep R package on GitHub
         <https://github.com/dcgerard/hwep>.
+-   Gerard (2022b): Read the preprint version
+    [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
+    -   **Abstract**: Three similar manuscripts, by many of the same
+        authors, were recently published describing methods for
+        Hardy-Weinberg equilibrium and random mating testing in
+        autotetraploids \[Sun, et al. *Trends in Genetics*, 37(6), 2021.
+        [doi:10.1016/j.tig.2020.11.006](https://doi.org/10.1016/j.tig.2020.11.006)\],
+        autohexaploids \[Wang, et al. *Horticulture Research*, 9, 2022.
+        [doi:10.1093/hr/uhac104](https://doi.org/10.1093/hr/uhac104)\],
+        and autooctoploids \[Wang, et al. *Frontiers in Genetics*,
+        12, 2021.
+        [doi:10.3389/fgene.2021.794907](https://doi.org/10.3389/fgene.2021.794907)\].
+        We found issues with these manuscripts, which we detail here.
+        The main problems that we see are (i) extensive mistakes and
+        implementation errors, (ii) confusion between random mating and
+        equilibrium, (iii) confusion between allo- and autopolyploid
+        inheritance, and (iv) poor hypothesis testing approaches. We
+        provide examples and simulations when appropriate. All of our
+        results are open and reproducible.
 
 ## Software
 
@@ -73,7 +92,7 @@ National Science Foundation.
         the degree of double reduction. We also provide functions to
         calculate genotype frequencies at equilibrium, or after one or
         several rounds of random mating, given rates of double
-        reduction. You can read about these methods in Gerard (2022b)
+        reduction. You can read about these methods in Gerard (2022c)
         and Gerard (2022a).
 -   The `phwelike` R package
     ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
@@ -82,14 +101,25 @@ National Science Foundation.
         Ren, and Wu (2021) and implements them in the form of an R
         package. This will allow researchers, such as myself, to better
         compare our methods against those of Jiang, Ren, and Wu (2021).
+        These evaluations were performed in Gerard (2022c). I would
+        recommend you not use this package and use the `hwep` package
+        instead (<https://cran.r-project.org/package=hwep>).
+-   The `hexocto` R package
+    ([doi:10.5281/zenodo.7019230](https://doi.org/10.5281/zenodo.7019230)):
+    <https://github.com/dcgerard/hexocto>
+    -   This code is from Wang et al. (2021) and Wang et al. (2022), in
+        package form so that it is easy to compare against other
+        procedures. These evaluations are performed in Gerard (2022b). I
+        would recommend you not use this package and use the `hwep`
+        package instead (<https://cran.r-project.org/package=hwep>).
 
 ## Reproducible Research
 
--   Results from Gerard (2022b):
+-   Results from Gerard (2022c):
     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5531872.svg)](https://doi.org/10.5281/zenodo.5531872)
     <https://github.com/dcgerard/hwesims>
     -   This code repository contains all the scripts necessary to
-        reproduce the results from Gerard (2022b). We emphasize extreme
+        reproduce the results from Gerard (2022c). We emphasize extreme
         reproducibilty by providing executable, and linked, code and
         data.
 -   Results from Gerard (2022a):
@@ -97,17 +127,23 @@ National Science Foundation.
     <https://github.com/dcgerard/rmbayes_sims>
     -   This code repository reproduces all of the results from Gerard
         (2022a), including simulations and real-data analyses.
+-   Results from Gerard (2022b):
+    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205)
+    -   This code repository reproduces all of the results from Gerard
+        (2022b) in the form of an interactive R markdown file.
 
 ## Presentations
 
 -   [doi:10.5281/zenodo.5589844](https://doi.org/10.5281/zenodo.5589844):
     Slides for a presentation at the American University Department of
     Mathematics and Statistics Colloquium on 2021-10-19. This work is
-    based on Gerard (2022b).
+    based on Gerard (2022c).
+
 -   [PAG 2022
     Poster](https://pag.confex.com/pag/xxix/meetingapp.cgi/Paper/43285):
     Virtual poster presentation at the 2022 Plant & Animal Genome
     Conference.
+
 -   [JSM 2022 Poster](https://doi.org/10.5281/zenodo.6987179): This
     poster was presented by D. Thomas Scartz at the 2022 Joint
     Statistical Meetings in Washington, DC. You can see the abstract for
@@ -153,9 +189,17 @@ Autopolyploids.” *bioRxiv*. <https://doi.org/10.1101/2022.08.11.503635>.
 
 </div>
 
+<div id="ref-gerard2022comment" class="csl-entry">
+
+———. 2022b. “Comment on Three Papers about Hardy-Weinberg Equilibrium
+Tests in Autopolyploids.” *HAL*.
+<https://hal.archives-ouvertes.fr/hal-03754674>.
+
+</div>
+
 <div id="ref-gerard2022double" class="csl-entry">
 
-———. 2022b. “Double Reduction Estimation and Equilibrium Tests in
+———. 2022c. “Double Reduction Estimation and Equilibrium Tests in
 Natural Autopolyploid Populations.” *Biometrics* In press.
 <https://doi.org/10.1111/biom.13722>.
 
@@ -167,6 +211,24 @@ Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. “Computational
 Characterization of Double Reduction in Autotetraploid Natural
 Populations.” *The Plant Journal* 105 (6): 1703–9.
 <https://doi.org/10.1111/tpj.15126>.
+
+</div>
+
+<div id="ref-wang2022asymptotic" class="csl-entry">
+
+Wang, Jing, Li Feng, Shuaicheng Mu, Ang Dong, Jinwen Gan, Zhenying Wen,
+Juan Meng, Mingyu Li, Rongling Wu, and Lidan Sun. 2022. “<span
+class="nocase">Asymptotic tests for Hardy-Weinberg equilibrium in
+hexaploids</span>.” *Horticulture Research* 9.
+<https://doi.org/10.1093/hr/uhac104>.
+
+</div>
+
+<div id="ref-wang2021tracing" class="csl-entry">
+
+Wang, Jing, Xuemin Lv, Li Feng, Ang Dong, Dan Liang, and Rongling Wu.
+2021. “A Tracing Model for the Evolutionary Equilibrium of Octoploids.”
+*Frontiers in Genetics* 12. <https://doi.org/10.3389/fgene.2021.794907>.
 
 </div>
 

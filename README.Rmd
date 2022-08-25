@@ -27,6 +27,9 @@ This repository contains material based upon work supported by the National Scie
 
 - @gerard2022bayesian: Read the preprint version [bioRxiv:2022.08.11.503635](https://doi.org/10.1101/2022.08.11.503635)
     - **Abstract**: Hardy-Weinberg equilibrium is often explored to evaluate the assumption of random mating. However, in autopolyploids, organisms with more than two sets of homologous chromosomes, Hardy-Weinberg equilibrium and random mating are different hypotheses that require different statistical testing approaches. Currently, the only available methods to test for random mating in autopolyploids (i) heavily rely on asymptotic approximations and (ii) assume genotypes are known, ignoring genotype uncertainty. Furthermore, these approaches are all frequentist, and so do not carry the benefits of Bayesian analysis, including ease of interpretability, incorporation of prior information, and consistency under the null. Here, we present Bayesian approaches to test for random mating, bringing the benefits of Bayesian analysis to this problem. Our Bayesian methods also (i) do not rely on asymptotic approximations, being appropriate for small sample sizes, and (ii) optionally account for genotype uncertainty via genotype likelihoods. We validate our methods in simulations, and demonstrate on two real datasets how testing for random mating is more useful than testing for equilibrium (in a natural population) and testing for Mendelian segregation (in an experimental S1 population). Our methods are implemented in Version 2.0.0 of the hwep R package on GitHub <https://github.com/dcgerard/hwep>.
+    
+- @gerard2022comment: Read the preprint version [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
+    - **Abstract**: Three similar manuscripts, by many of the same authors, were recently published describing methods for Hardy-Weinberg equilibrium and random mating testing in autotetraploids [Sun, et al. *Trends in Genetics*, 37(6), 2021. [doi:10.1016/j.tig.2020.11.006](https://doi.org/10.1016/j.tig.2020.11.006)], autohexaploids [Wang, et al. *Horticulture Research*, 9, 2022. [doi:10.1093/hr/uhac104](https://doi.org/10.1093/hr/uhac104)], and autooctoploids [Wang, et al. *Frontiers in Genetics*, 12, 2021. [doi:10.3389/fgene.2021.794907](https://doi.org/10.3389/fgene.2021.794907)]. We found issues with these manuscripts, which we detail here. The main problems that we see are (i) extensive mistakes and implementation errors, (ii) confusion between random mating and equilibrium, (iii) confusion between allo- and autopolyploid inheritance, and (iv) poor hypothesis testing approaches. We provide examples and simulations when appropriate. All of our results are open and reproducible.
 
 ## Software
 
@@ -43,10 +46,10 @@ This repository contains material based upon work supported by the National Scie
       and @gerard2022bayesian.
 
 - The `phwelike` R package ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)): <https://github.com/dcgerard/phwelike> 
-    - This package takes the methods developed and written by
-      @jiang2021computational and implements them in the form of an R
-      package.  This will allow researchers, such as myself, to better
-      compare our methods against those of @jiang2021computational.
+    - This package takes the methods developed and written by @jiang2021computational and implements them in the form of an R package.  This will allow researchers, such as myself, to better compare our methods against those of @jiang2021computational. These evaluations were performed in @gerard2022double. I would recommend you not use this package and use the `hwep` package instead (https://cran.r-project.org/package=hwep).
+      
+- The `hexocto` R package ([doi:10.5281/zenodo.7019230](https://doi.org/10.5281/zenodo.7019230)): <https://github.com/dcgerard/hexocto>
+    - This code is from @wang2021tracing and @wang2022asymptotic, in package form so that it is easy to compare against other procedures. These evaluations are performed in @gerard2022comment. I would recommend you not use this package and use the `hwep` package instead (https://cran.r-project.org/package=hwep).
 
 ## Reproducible Research
 
@@ -57,17 +60,24 @@ This repository contains material based upon work supported by the National Scie
       
 - Results from @gerard2022bayesian: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6993722.svg)](https://doi.org/10.5281/zenodo.6993722) <https://github.com/dcgerard/rmbayes_sims>
     - This code repository reproduces all of the results from @gerard2022bayesian, including simulations and real-data analyses.
+    
+- Results from @gerard2022comment:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205)
+    - This code repository reproduces all of the results from @gerard2022comment in the form of an interactive R markdown file.
       
 ## Presentations
 
 - [doi:10.5281/zenodo.5589844](https://doi.org/10.5281/zenodo.5589844): Slides for a presentation at the American University Department of Mathematics and Statistics Colloquium on 2021-10-19. This work is based on @gerard2022double.
+
 - [PAG 2022 Poster](https://pag.confex.com/pag/xxix/meetingapp.cgi/Paper/43285): Virtual poster presentation at the 2022 Plant & Animal Genome Conference.
+
 - [JSM 2022 Poster](https://doi.org/10.5281/zenodo.6987179): This poster was presented by D. Thomas Scartz at the 2022 Joint Statistical Meetings in Washington, DC. You can see the abstract for the poster [here](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322319).
 
 ## Education Materials
 
 - [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
     - This course prepares students for software development using the R statistical programming language. Topics include: version control via git and its command line interface, package development, unit testing, base R data structures, environments, object oriented programming via S3 and S4, metaprogramming, interfacing with C++ via Rcpp, parallel processing with futures, and batch scheduling jobs via LSF. This course was taught during the Spring semester of 2022 at American University. All materials that I created for this course are under a CC BY-NC 4.0 license, so you are free to use them for non-commercial purposes as long as you provide attribution.
+    
 - [Genetic Data Analysis](https://dcgerard.github.io/gda/)
     - This website contains a series of hand-written lecture notes I created for my research group on basic genetic data analysis. Topics include genotype and allele frequency estimation, Hardy-Weinberg equilibrium testing, linkage disequilibrium testing and estimation, maximum likelihood estimation and the expectation-maximization algorithm, basic Bayesian inference, genetic drift and mutation (including in the context of molecular evolution), coalescent theory, inbreeding, and population subdivision. I also have a few lectures on classic research papers. This material is under a CC BY-NC 4.0 license, so you can use them for non-commercial purposes as long as you provide attribution.
 
