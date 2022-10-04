@@ -61,7 +61,9 @@ National Science Foundation.
         segregation (in an experimental S1 population). Our methods are
         implemented in Version 2.0.0 of the hwep R package on GitHub
         <https://github.com/dcgerard/hwep>.
--   Gerard (2022b): Read the preprint version
+-   Gerard (2022b): Read the paper
+    [doi:10.3389/fgene.2022.1027209](https://doi.org/10.3389/fgene.2022.1027209)
+    or the preprint version
     [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
     -   **Abstract**: Three similar manuscripts, by many of the same
         authors, were recently published describing methods for
@@ -192,9 +194,9 @@ Autopolyploids.” *bioRxiv*. <https://doi.org/10.1101/2022.08.11.503635>.
 
 <div id="ref-gerard2022comment" class="csl-entry">
 
-———. 2022b. “Comment on Three Papers about Hardy-Weinberg Equilibrium
-Tests in Autopolyploids.” *HAL*.
-<https://hal.archives-ouvertes.fr/hal-03754674>.
+———. 2022b. “Comment on Three Papers about Hardy–Weinberg Equilibrium
+Tests in Autopolyploids.” *Frontiers in Genetics* 13.
+<https://doi.org/10.3389/fgene.2022.1027209>.
 
 </div>
 
