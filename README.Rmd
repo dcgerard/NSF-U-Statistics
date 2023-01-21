@@ -73,6 +73,9 @@ This repository contains material based upon work supported by the National Scie
 
 - [JSM 2022 Poster](https://doi.org/10.5281/zenodo.6987179): This poster was presented by D. Thomas Scartz at the 2022 Joint Statistical Meetings in Washington, DC. You can see the abstract for the poster [here](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322319).
 
+- [PAG 2023 Poster](https://doi.org/10.5281/zenodo.7557197): PDF file of the poster I presented at the 2023 Plant & Animal Genome Conference. 
+    - Gerard, David. "Bayesian Tests for Random Mating in Autopolyploids." Plant and Animal Genome Conference 30 (PAG 30), San Diego, California, 13--18 January 2023 (Poster PO0097). [DOI:10.5281/zenodo.7557197](https://doi.org/10.5281/zenodo.7557197).
+
 ## Education Materials
 
 - [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
