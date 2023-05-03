@@ -30,6 +30,11 @@ This repository contains material based upon work supported by the National Scie
     
 - @gerard2022comment: Read the paper [doi:10.3389/fgene.2022.1027209](https://doi.org/10.3389/fgene.2022.1027209) or the preprint version [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
     - **Abstract**: Three similar manuscripts, by many of the same authors, were recently published describing methods for Hardy-Weinberg equilibrium and random mating testing in autotetraploids [Sun, et al. *Trends in Genetics*, 37(6), 2021. [doi:10.1016/j.tig.2020.11.006](https://doi.org/10.1016/j.tig.2020.11.006)], autohexaploids [Wang, et al. *Horticulture Research*, 9, 2022. [doi:10.1093/hr/uhac104](https://doi.org/10.1093/hr/uhac104)], and autooctoploids [Wang, et al. *Frontiers in Genetics*, 12, 2021. [doi:10.3389/fgene.2021.794907](https://doi.org/10.3389/fgene.2021.794907)]. We found issues with these manuscripts, which we detail here. The main problems that we see are (i) extensive mistakes and implementation errors, (ii) confusion between random mating and equilibrium, (iii) confusion between allo- and autopolyploid inheritance, and (iv) poor hypothesis testing approaches. We provide examples and simulations when appropriate. All of our results are open and reproducible.
+    
+## Master's Theses:
+
+- @matokanana2023exact: Read the thesis [ProQuest:2808426065](https://www.proquest.com/dissertations-theses/exact-tests-random-mating-autotetraploids/docview/2808426065/se-2?accountid=8285)
+    - **Abstract**: In statistical genetics, a common task is to evaluate the assumption of random mating, which is a baseline for population genetic models and can be used as a quality control procedure. In diploids, which are organisms with two copies of their genome, this is done through tests for Hardy-Weinberg equilibrium (HWE). However, for autotetraploids, which are organisms with four copies of their genome, the assumption of random mating and HWE are different and there has been less work on evaluating random mating in these organisms. The standard approach for HWE tests in diploids is to use exact tests, which control for Type I error for finite sample sizes. However, there are currently no exact tests available for autotetraploids. In this study, we provide two approaches for exact tests for random mating in autotetraploids. The first approach conditions inference on sufficient statistics, while the second uses a split likelihood ratio. Although these approaches exactly control for Type I error, simulations show that they are too conservative for use. Therefore, we recommend using a standard likelihood ratio test or a standard chi-squared test, which we implement. We demonstrate all of these approaches using a dataset of autotetraploid white sturgeon.
 
 ## Software
 
@@ -50,6 +55,9 @@ This repository contains material based upon work supported by the National Scie
       
 - The `hexocto` R package ([doi:10.5281/zenodo.7019230](https://doi.org/10.5281/zenodo.7019230)): <https://github.com/dcgerard/hexocto>
     - This code is from @wang2021tracing and @wang2022asymptotic, in package form so that it is easy to compare against other procedures. These evaluations are performed in @gerard2022comment. I would recommend you not use this package and use the `hwep` package instead (https://cran.r-project.org/package=hwep).
+    
+- The `rmexact` R package ([doi:10.5281/zenodo.7671765](https://doi.org/10.5281/zenodo.7671765)): <https://github.com/gerardlab/rmexact>
+    - This package implements the exact tests for random mating in autotetraploids described in @matokanana2023exact. This is joint work with Karene Matoka Nana.
 
 ## Reproducible Research
 
@@ -64,6 +72,10 @@ This repository contains material based upon work supported by the National Scie
 - Results from @gerard2022comment:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205) <https://github.com/dcgerard/hwesupp>
     - This code repository reproduces all of the results from @gerard2022comment in the form of an interactive R markdown file.
+    
+- Results from @matokanana2023exact: [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474) <https://github.com/gerardlab/rmexact_analysis>
+    - This code repository reproduces all of the results from @matokanana2023exact, including simulations and real-data analyses.
+
       
 ## Presentations
 
@@ -75,6 +87,8 @@ This repository contains material based upon work supported by the National Scie
 
 - [PAG 2023 Poster](https://doi.org/10.5281/zenodo.7557197): PDF file of the poster I presented at the 2023 Plant & Animal Genome Conference. 
     - Gerard, David. "Bayesian Tests for Random Mating in Autopolyploids." Plant and Animal Genome Conference 30 (PAG 30), San Diego, California, 13--18 January 2023 (Poster PO0097). [DOI:10.5281/zenodo.7557197](https://doi.org/10.5281/zenodo.7557197).
+    
+- [doi:10.5281/zenodo.7893884](https://doi.org/10.5281/zenodo.7893884): Slides for Karene Matoka Nana's Master's thesis defense at American University on April 19, 2023. This work is based on @matokanana2023exact.
 
 ## Education Materials
 

@@ -81,6 +81,31 @@ National Science Foundation.
     examples and simulations when appropriate. All of our results are
     open and reproducible.
 
+## Master’s Theses:
+
+- Matoka Nana (2023): Read the thesis
+  [ProQuest:2808426065](https://www.proquest.com/dissertations-theses/exact-tests-random-mating-autotetraploids/docview/2808426065/se-2?accountid=8285)
+  - **Abstract**: In statistical genetics, a common task is to evaluate
+    the assumption of random mating, which is a baseline for population
+    genetic models and can be used as a quality control procedure. In
+    diploids, which are organisms with two copies of their genome, this
+    is done through tests for Hardy-Weinberg equilibrium (HWE). However,
+    for autotetraploids, which are organisms with four copies of their
+    genome, the assumption of random mating and HWE are different and
+    there has been less work on evaluating random mating in these
+    organisms. The standard approach for HWE tests in diploids is to use
+    exact tests, which control for Type I error for finite sample sizes.
+    However, there are currently no exact tests available for
+    autotetraploids. In this study, we provide two approaches for exact
+    tests for random mating in autotetraploids. The first approach
+    conditions inference on sufficient statistics, while the second uses
+    a split likelihood ratio. Although these approaches exactly control
+    for Type I error, simulations show that they are too conservative
+    for use. Therefore, we recommend using a standard likelihood ratio
+    test or a standard chi-squared test, which we implement. We
+    demonstrate all of these approaches using a dataset of
+    autotetraploid white sturgeon.
+
 ## Software
 
 - The `hwep` R package: <https://cran.r-project.org/package=hwep>
@@ -111,6 +136,12 @@ National Science Foundation.
     These evaluations are performed in Gerard (2022b). I would recommend
     you not use this package and use the `hwep` package instead
     (<https://cran.r-project.org/package=hwep>).
+- The `rmexact` R package
+  ([doi:10.5281/zenodo.7671765](https://doi.org/10.5281/zenodo.7671765)):
+  <https://github.com/gerardlab/rmexact>
+  - This package implements the exact tests for random mating in
+    autotetraploids described in Matoka Nana (2023). This is joint work
+    with Karene Matoka Nana.
 
 ## Reproducible Research
 
@@ -130,6 +161,11 @@ National Science Foundation.
   <https://github.com/dcgerard/hwesupp>
   - This code repository reproduces all of the results from Gerard
     (2022b) in the form of an interactive R markdown file.
+- Results from Matoka Nana (2023):
+  [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474)
+  <https://github.com/gerardlab/rmexact_analysis>
+  - This code repository reproduces all of the results from Matoka Nana
+    (2023), including simulations and real-data analyses.
 
 ## Presentations
 
@@ -155,6 +191,11 @@ National Science Foundation.
     Plant and Animal Genome Conference 30 (PAG 30), San Diego,
     California, 13–18 January 2023 (Poster PO0097).
     [DOI:10.5281/zenodo.7557197](https://doi.org/10.5281/zenodo.7557197).
+
+- [doi:10.5281/zenodo.7893884](https://doi.org/10.5281/zenodo.7893884):
+  Slides for Karene Matoka Nana’s Master’s thesis defense at American
+  University on April 19, 2023. This work is based on Matoka Nana
+  (2023).
 
 ## Education Materials
 
@@ -215,6 +256,13 @@ Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. “Computational
 Characterization of Double Reduction in Autotetraploid Natural
 Populations.” *The Plant Journal* 105 (6): 1703–9.
 <https://doi.org/10.1111/tpj.15126>.
+
+</div>
+
+<div id="ref-matokanana2023exact" class="csl-entry">
+
+Matoka Nana, Karene. 2023. “Exact Tests for Random Mating in
+Autotetraploids.” Master’s thesis, American University.
 
 </div>
 
