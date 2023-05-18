@@ -37,29 +37,31 @@ National Science Foundation.
     data.
 - Gerard (2022a): Read the preprint version
   [bioRxiv:2022.08.11.503635](https://doi.org/10.1101/2022.08.11.503635)
-  - **Abstract**: Hardy-Weinberg equilibrium is often explored to
+  - **Abstract**: Hardy-Weinberg proportions (HWP) are often explored to
     evaluate the assumption of random mating. However, in
     autopolyploids, organisms with more than two sets of homologous
-    chromosomes, Hardy-Weinberg equilibrium and random mating are
-    different hypotheses that require different statistical testing
-    approaches. Currently, the only available methods to test for random
-    mating in autopolyploids (i) heavily rely on asymptotic
-    approximations and (ii) assume genotypes are known, ignoring
-    genotype uncertainty. Furthermore, these approaches are all
-    frequentist, and so do not carry the benefits of Bayesian analysis,
-    including ease of interpretability, incorporation of prior
-    information, and consistency under the null. Here, we present
-    Bayesian approaches to test for random mating, bringing the benefits
-    of Bayesian analysis to this problem. Our Bayesian methods also (i)
-    do not rely on asymptotic approximations, being appropriate for
-    small sample sizes, and (ii) optionally account for genotype
-    uncertainty via genotype likelihoods. We validate our methods in
-    simulations, and demonstrate on two real datasets how testing for
-    random mating is more useful than testing for equilibrium (in a
-    natural population) and testing for Mendelian segregation (in an
-    experimental S1 population). Our methods are implemented in Version
-    2.0.0 of the hwep R package on GitHub
-    <https://github.com/dcgerard/hwep>.
+    chromosomes, HWP and random mating are different hypotheses that
+    require different statistical testing approaches. Currently, the
+    only available methods to test for random mating in
+    autopolyploids (i) heavily rely on asymptotic approximations
+    and (ii) assume genotypes are known, ignoring genotype uncertainty.
+    Furthermore, these approaches are all frequentist, and so do not
+    carry the benefits of Bayesian analysis, including ease of
+    interpretability, incorporation of prior information, and
+    consistency under the null. Here, we present Bayesian approaches to
+    test for random mating, bringing the benefits of Bayesian analysis
+    to this problem. Our Bayesian methods also (i) do not rely on
+    asymptotic approximations, being appropriate for small sample sizes,
+    and (ii) optionally account for genotype uncertainty via genotype
+    likelihoods. We validate our methods in simulations, and demonstrate
+    on two real datasets how testing for random mating is more useful
+    for detecting genotyping errors than testing for HWP (in a natural
+    population) and testing for Mendelian segregation (in an
+    experimental S1 population). Serendipitously, we further show that
+    our tests for random mating in autopolyploids may also be applied as
+    tests for HWP in allopolyploids. Our methods are implemented in
+    Version 2.0.2 of the `hwep` R package on the Comprehensive R Archive
+    Network <https://cran.r-project.org/package=hwep>.
 - Gerard (2022b): Read the paper
   [doi:10.3389/fgene.2022.1027209](https://doi.org/10.3389/fgene.2022.1027209)
   or the preprint version
@@ -229,8 +231,8 @@ National Science Foundation.
 
 <div id="ref-gerard2022bayesian" class="csl-entry">
 
-Gerard, David. 2022a. “Bayesian Tests for Random Mating in
-Autopolyploids.” *bioRxiv*. <https://doi.org/10.1101/2022.08.11.503635>.
+Gerard, David. 2022a. “Bayesian Tests for Random Mating in Polyploids.”
+*bioRxiv*. <https://doi.org/10.1101/2022.08.11.503635>.
 
 </div>
 
