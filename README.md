@@ -86,7 +86,7 @@ National Science Foundation.
 ## Master’s Theses:
 
 - Matoka Nana (2023): Read the thesis
-  [ProQuest:2808426065](https://www.proquest.com/dissertations-theses/exact-tests-random-mating-autotetraploids/docview/2808426065/se-2?accountid=8285)
+  [ProQuest:2808426065](https://www.proquest.com/docview/2808426065)
   - **Abstract**: In statistical genetics, a common task is to evaluate
     the assumption of random mating, which is a baseline for population
     genetic models and can be used as a quality control procedure. In
