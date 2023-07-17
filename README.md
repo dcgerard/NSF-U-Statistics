@@ -86,6 +86,7 @@ National Science Foundation.
 ## Master’s Theses:
 
 - Matoka Nana (2023): Read the thesis
+  [doi:10.57912/23504199](https://doi.org/10.57912/23504199) or
   [ProQuest:2808426065](https://www.proquest.com/docview/2808426065)
   - **Abstract**: In statistical genetics, a common task is to evaluate
     the assumption of random mating, which is a baseline for population
@@ -265,14 +266,15 @@ Populations.” *The Plant Journal* 105 (6): 1703–9.
 
 Matoka Nana, Karene. 2023. “Exact Tests for Random Mating in
 Autotetraploids.” Master’s thesis, American University.
+<https://doi.org/10.57912/23504199>.
 
 </div>
 
 <div id="ref-wang2022asymptotic" class="csl-entry">
 
 Wang, Jing, Li Feng, Shuaicheng Mu, Ang Dong, Jinwen Gan, Zhenying Wen,
-Juan Meng, Mingyu Li, Rongling Wu, and Lidan Sun. 2022. “<span
-class="nocase">Asymptotic tests for Hardy-Weinberg equilibrium in
+Juan Meng, Mingyu Li, Rongling Wu, and Lidan Sun. 2022.
+“<span class="nocase">Asymptotic tests for Hardy-Weinberg equilibrium in
 hexaploids</span>.” *Horticulture Research* 9.
 <https://doi.org/10.1093/hr/uhac104>.
 
