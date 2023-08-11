@@ -35,6 +35,12 @@ This repository contains material based upon work supported by the National Scie
 
 - @matokanana2023exact: Read the thesis [doi:10.57912/23504199](https://doi.org/10.57912/23504199) or [ProQuest:2808426065](https://www.proquest.com/docview/2808426065)
     - **Abstract**: In statistical genetics, a common task is to evaluate the assumption of random mating, which is a baseline for population genetic models and can be used as a quality control procedure. In diploids, which are organisms with two copies of their genome, this is done through tests for Hardy-Weinberg equilibrium (HWE). However, for autotetraploids, which are organisms with four copies of their genome, the assumption of random mating and HWE are different and there has been less work on evaluating random mating in these organisms. The standard approach for HWE tests in diploids is to use exact tests, which control for Type I error for finite sample sizes. However, there are currently no exact tests available for autotetraploids. In this study, we provide two approaches for exact tests for random mating in autotetraploids. The first approach conditions inference on sufficient statistics, while the second uses a split likelihood ratio. Although these approaches exactly control for Type I error, simulations show that they are too conservative for use. Therefore, we recommend using a standard likelihood ratio test or a standard chi-squared test, which we implement. We demonstrate all of these approaches using a dataset of autotetraploid white sturgeon.
+    
+- @thakkar2023bayesian: Read the thesis [ProQuest:2847679939](https://www.proquest.com/docview/2847679939)
+    - **Abstract**: Here, we focus on testing for segregation distortion in F1 populations of tetraploids. Tetraploids, which contain four sets of chromosomes, are important in both evolutionary research and agricultural improvement. In agricultural experiments with F1 populations, as a quality control measure, researchers often test whether genotype frequencies conform to those expected under Mendelian segregation. However, classical segregation patterns can be distorted in tetraploids due to the meiotic processes of double reduction and preferential pairing, which can alter gamete frequencies. Currently, there is no method to test for segregation distortion while accounting for these two processes in tetraploid F1 populations, despite their widespread use in agriculture. 
+
+        To address this gap, we propose a Bayesian approach that incorporates both preferential pairing and double reduction in a new model for offspring genotypes in tetraploid F1 populations. We demonstrate the efficacy of our approach through simulations and a real dataset of tetraploid blueberries. Our method inherits all of the benefits of Bayesian analysis, including consistency under the null, incorporation of prior information, and applicability to small samples by not depending on asymptotic approximations. This study provides a valuable contribution to the field by offering a new tool for testing for segregation distortion in tetraploid F1 populations.
+
 
 ## Software
 
@@ -58,6 +64,11 @@ This repository contains material based upon work supported by the National Scie
     
 - The `rmexact` R package ([doi:10.5281/zenodo.7671765](https://doi.org/10.5281/zenodo.7671765)): <https://github.com/gerardlab/rmexact>
     - This package implements the exact tests for random mating in autotetraploids described in @matokanana2023exact. This is joint work with Karene Matoka Nana.
+    
+- The `menbayes` R package ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)): <https://github.com/gerardlab/menbayes>
+    - Provides a suite of methods for Bayesian tests for Mendelian segregation
+in experimental polyploid populations (for now, just tetraploids). This
+is under different assumptions of meiosis. These methods are described in @thakkar2023bayesian.
 
 ## Reproducible Research
 
@@ -75,7 +86,9 @@ This repository contains material based upon work supported by the National Scie
     
 - Results from @matokanana2023exact: [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474) <https://github.com/gerardlab/rmexact_analysis>
     - This code repository reproduces all of the results from @matokanana2023exact, including simulations and real-data analyses.
-
+    
+- Results from @thakkar2023bayesian: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8124372.svg)](https://doi.org/10.5281/zenodo.8124372) <https://github.com/gerardlab/menbayes_analysis>
+    - This code repository reproduces all of the results from @thakkar2023bayesian, including simulations and real-data analyses.
       
 ## Presentations
 
@@ -89,6 +102,8 @@ This repository contains material based upon work supported by the National Scie
     - Gerard, David. "Bayesian Tests for Random Mating in Autopolyploids." Plant and Animal Genome Conference 30 (PAG 30), San Diego, California, 13--18 January 2023 (Poster PO0097). [DOI:10.5281/zenodo.7557197](https://doi.org/10.5281/zenodo.7557197).
     
 - [doi:10.5281/zenodo.7893884](https://doi.org/10.5281/zenodo.7893884): Slides for Karene Matoka Nana's Master's thesis defense at American University on April 19, 2023. This work is based on @matokanana2023exact.
+
+- [doi:10.5281/zenodo.8190747](https://doi.org/10.5281/zenodo.8190747): Slides for Mira Thakkar's Master's thesis defense at American University on July 24, 2023. This work is based on @thakkar2023bayesian.
 
 ## Education Materials
 

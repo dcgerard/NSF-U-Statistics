@@ -108,6 +108,31 @@ National Science Foundation.
     test or a standard chi-squared test, which we implement. We
     demonstrate all of these approaches using a dataset of
     autotetraploid white sturgeon.
+- Thakkar (2023): Read the thesis
+  [ProQuest:2847679939](https://www.proquest.com/docview/2847679939)
+  - **Abstract**: Here, we focus on testing for segregation distortion
+    in F1 populations of tetraploids. Tetraploids, which contain four
+    sets of chromosomes, are important in both evolutionary research and
+    agricultural improvement. In agricultural experiments with F1
+    populations, as a quality control measure, researchers often test
+    whether genotype frequencies conform to those expected under
+    Mendelian segregation. However, classical segregation patterns can
+    be distorted in tetraploids due to the meiotic processes of double
+    reduction and preferential pairing, which can alter gamete
+    frequencies. Currently, there is no method to test for segregation
+    distortion while accounting for these two processes in tetraploid F1
+    populations, despite their widespread use in agriculture.
+
+    To address this gap, we propose a Bayesian approach that
+    incorporates both preferential pairing and double reduction in a new
+    model for offspring genotypes in tetraploid F1 populations. We
+    demonstrate the efficacy of our approach through simulations and a
+    real dataset of tetraploid blueberries. Our method inherits all of
+    the benefits of Bayesian analysis, including consistency under the
+    null, incorporation of prior information, and applicability to small
+    samples by not depending on asymptotic approximations. This study
+    provides a valuable contribution to the field by offering a new tool
+    for testing for segregation distortion in tetraploid F1 populations.
 
 ## Software
 
@@ -145,6 +170,13 @@ National Science Foundation.
   - This package implements the exact tests for random mating in
     autotetraploids described in Matoka Nana (2023). This is joint work
     with Karene Matoka Nana.
+- The `menbayes` R package
+  ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)):
+  <https://github.com/gerardlab/menbayes>
+  - Provides a suite of methods for Bayesian tests for Mendelian
+    segregation in experimental polyploid populations (for now, just
+    tetraploids). This is under different assumptions of meiosis. These
+    methods are described in Thakkar (2023).
 
 ## Reproducible Research
 
@@ -168,6 +200,11 @@ National Science Foundation.
   [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474)
   <https://github.com/gerardlab/rmexact_analysis>
   - This code repository reproduces all of the results from Matoka Nana
+    (2023), including simulations and real-data analyses.
+- Results from Thakkar (2023):
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8124372.svg)](https://doi.org/10.5281/zenodo.8124372)
+  <https://github.com/gerardlab/menbayes_analysis>
+  - This code repository reproduces all of the results from Thakkar
     (2023), including simulations and real-data analyses.
 
 ## Presentations
@@ -199,6 +236,10 @@ National Science Foundation.
   Slides for Karene Matoka Nana’s Master’s thesis defense at American
   University on April 19, 2023. This work is based on Matoka Nana
   (2023).
+
+- [doi:10.5281/zenodo.8190747](https://doi.org/10.5281/zenodo.8190747):
+  Slides for Mira Thakkar’s Master’s thesis defense at American
+  University on July 24, 2023. This work is based on Thakkar (2023).
 
 ## Education Materials
 
@@ -267,6 +308,14 @@ Populations.” *The Plant Journal* 105 (6): 1703–9.
 Matoka Nana, Karene. 2023. “Exact Tests for Random Mating in
 Autotetraploids.” Master’s thesis, American University.
 <https://doi.org/10.57912/23504199>.
+
+</div>
+
+<div id="ref-thakkar2023bayesian" class="csl-entry">
+
+Thakkar, Mira. 2023. “Bayesian Tests for Segregation Distortion in
+Experimental Tetraploid Populations.” Master’s thesis, American
+University. <https://www.proquest.com/docview/2847679939>.
 
 </div>
 
