@@ -14,7 +14,7 @@ National Science Foundation.
 
 ## Manuscripts
 
-- Gerard (2022c): Read the paper
+- Gerard (2022b): Read the paper
   [doi:10.1111/biom.13722](https://doi.org/10.1111/biom.13722) or the
   preprint version
   [bioRxiv:2021.09.24.461731](https://doi.org/10.1101/2021.09.24.461731)
@@ -35,7 +35,9 @@ National Science Foundation.
     develop a bootstrap procedure based on our *U*-statistic to test for
     equilibrium. We validate our methods on both simulated and real
     data.
-- Gerard (2022a): Read the preprint version
+- Gerard (2023): Read the paper
+  [doi:10.1111/1755-0998.13856](https://doi.org/10.1111/1755-0998.13856)
+  or the preprint version
   [bioRxiv:2022.08.11.503635](https://doi.org/10.1101/2022.08.11.503635)
   - **Abstract**: Hardy-Weinberg proportions (HWP) are often explored to
     evaluate the assumption of random mating. However, in
@@ -57,12 +59,10 @@ National Science Foundation.
     on two real datasets how testing for random mating is more useful
     for detecting genotyping errors than testing for HWP (in a natural
     population) and testing for Mendelian segregation (in an
-    experimental S1 population). Serendipitously, we further show that
-    our tests for random mating in autopolyploids may also be applied as
-    tests for HWP in allopolyploids. Our methods are implemented in
-    Version 2.0.2 of the `hwep` R package on the Comprehensive R Archive
-    Network <https://cran.r-project.org/package=hwep>.
-- Gerard (2022b): Read the paper
+    experimental S1 population). Our methods are implemented in Version
+    2.0.2 of the `hwep` R package on the Comprehensive R Archive Network
+    <https://cran.r-project.org/package=hwep>.
+- Gerard (2022a): Read the paper
   [doi:10.3389/fgene.2022.1027209](https://doi.org/10.3389/fgene.2022.1027209)
   or the preprint version
   [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
@@ -145,7 +145,7 @@ National Science Foundation.
     reduction. We also provide functions to calculate genotype
     frequencies at equilibrium, or after one or several rounds of random
     mating, given rates of double reduction. You can read about these
-    methods in Gerard (2022c) and Gerard (2022a).
+    methods in Gerard (2022b) and Gerard (2023).
 - The `phwelike` R package
   ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
   <https://github.com/dcgerard/phwelike>
@@ -153,7 +153,7 @@ National Science Foundation.
     and Wu (2021) and implements them in the form of an R package. This
     will allow researchers, such as myself, to better compare our
     methods against those of Jiang, Ren, and Wu (2021). These
-    evaluations were performed in Gerard (2022c). I would recommend you
+    evaluations were performed in Gerard (2022b). I would recommend you
     not use this package and use the `hwep` package instead
     (<https://cran.r-project.org/package=hwep>).
 - The `hexocto` R package
@@ -161,7 +161,7 @@ National Science Foundation.
   <https://github.com/dcgerard/hexocto>
   - This code is from Wang et al. (2021) and Wang et al. (2022), in
     package form so that it is easy to compare against other procedures.
-    These evaluations are performed in Gerard (2022b). I would recommend
+    These evaluations are performed in Gerard (2022a). I would recommend
     you not use this package and use the `hwep` package instead
     (<https://cran.r-project.org/package=hwep>).
 - The `rmexact` R package
@@ -180,22 +180,22 @@ National Science Foundation.
 
 ## Reproducible Research
 
-- Results from Gerard (2022c):
+- Results from Gerard (2022b):
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5531872.svg)](https://doi.org/10.5281/zenodo.5531872)
   <https://github.com/dcgerard/hwesims>
   - This code repository contains all the scripts necessary to reproduce
-    the results from Gerard (2022c). We emphasize extreme reproducibilty
+    the results from Gerard (2022b). We emphasize extreme reproducibilty
     by providing executable, and linked, code and data.
-- Results from Gerard (2022a):
+- Results from Gerard (2023):
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6993722.svg)](https://doi.org/10.5281/zenodo.6993722)
   <https://github.com/dcgerard/rmbayes_sims>
   - This code repository reproduces all of the results from Gerard
-    (2022a), including simulations and real-data analyses.
-- Results from Gerard (2022b):
+    (2023), including simulations and real-data analyses.
+- Results from Gerard (2022a):
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205)
   <https://github.com/dcgerard/hwesupp>
   - This code repository reproduces all of the results from Gerard
-    (2022b) in the form of an interactive R markdown file.
+    (2022a) in the form of an interactive R markdown file.
 - Results from Matoka Nana (2023):
   [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474)
   <https://github.com/gerardlab/rmexact_analysis>
@@ -212,7 +212,7 @@ National Science Foundation.
 - [doi:10.5281/zenodo.5589844](https://doi.org/10.5281/zenodo.5589844):
   Slides for a presentation at the American University Department of
   Mathematics and Statistics Colloquium on 2021-10-19. This work is
-  based on Gerard (2022c).
+  based on Gerard (2022b).
 
 - [PAG 2022
   Poster](https://pag.confex.com/pag/xxix/meetingapp.cgi/Paper/43285):
@@ -271,26 +271,26 @@ National Science Foundation.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-gerard2022bayesian" class="csl-entry">
-
-Gerard, David. 2022a. “Bayesian Tests for Random Mating in Polyploids.”
-*bioRxiv*. <https://doi.org/10.1101/2022.08.11.503635>.
-
-</div>
-
 <div id="ref-gerard2022comment" class="csl-entry">
 
-———. 2022b. “Comment on Three Papers about Hardy–Weinberg Equilibrium
-Tests in Autopolyploids.” *Frontiers in Genetics* 13.
+Gerard, David. 2022a. “Comment on Three Papers about Hardy–Weinberg
+Equilibrium Tests in Autopolyploids.” *Frontiers in Genetics* 13.
 <https://doi.org/10.3389/fgene.2022.1027209>.
 
 </div>
 
 <div id="ref-gerard2022double" class="csl-entry">
 
-———. 2022c. “Double Reduction Estimation and Equilibrium Tests in
+———. 2022b. “Double Reduction Estimation and Equilibrium Tests in
 Natural Autopolyploid Populations.” *Biometrics* In press.
 <https://doi.org/10.1111/biom.13722>.
+
+</div>
+
+<div id="ref-gerard2023bayesian" class="csl-entry">
+
+———. 2023. “Bayesian Tests for Random Mating in Polyploids.” *Molecular
+Ecology Resources* In press. <https://doi.org/10.1111/1755-0998.13856>.
 
 </div>
 
