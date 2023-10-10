@@ -109,6 +109,7 @@ National Science Foundation.
     demonstrate all of these approaches using a dataset of
     autotetraploid white sturgeon.
 - Thakkar (2023): Read the thesis
+  [doi:10.57912/24256936](https://doi.org/10.57912/24256936) or
   [ProQuest:2847679939](https://www.proquest.com/docview/2847679939)
   - **Abstract**: Here, we focus on testing for segregation distortion
     in F1 populations of tetraploids. Tetraploids, which contain four
@@ -316,7 +317,7 @@ Autotetraploids.” Master’s thesis, American University.
 
 Thakkar, Mira. 2023. “Bayesian Tests for Segregation Distortion in
 Experimental Tetraploid Populations.” Master’s thesis, American
-University. <https://www.proquest.com/docview/2847679939>.
+University. <https://doi.org/10.57912/24256936>.
 
 </div>
 
