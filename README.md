@@ -242,6 +242,18 @@ National Science Foundation.
   Slides for Mira Thakkar’s Master’s thesis defense at American
   University on July 24, 2023. This work is based on Thakkar (2023).
 
+- [2024 Tools for Polyploids
+  Workshop](https://www.polyploids.org/sites/default/files/2024-01/f1pres.pdf):
+  Slides for a presentation during the [2024 Tools for
+  Polyploids](https://www.polyploids.org/2024workshop) on January 10,
+  2024.
+
+  - Gerard, David, Mira Thakkar, and Luis Felipe Ventorim Ferrão. “Tests
+    for Segregation Distortion in F1 Populations of Tetraploids.” Tools
+    for Polyploids Workshop 2024, San Diego, California, 10–11
+    January 2024.
+    <https://www.polyploids.org/sites/default/files/2024-01/f1pres.pdf>
+
 ## Education Materials
 
 - [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
