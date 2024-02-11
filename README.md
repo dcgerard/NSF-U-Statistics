@@ -82,6 +82,25 @@ National Science Foundation.
     inheritance, and (iv) poor hypothesis testing approaches. We provide
     examples and simulations when appropriate. All of our results are
     open and reproducible.
+- Gerard, Thakkar, and Ferrão (2024): Read the preprint
+  [doi:10.1101/2024.02.07.579361](https://doi.org/10.1101/2024.02.07.579361).
+  - **Abstract**: Genotype data from tetraploid F1 populations are often
+    collected in breeding programs for mapping and genomic selection
+    purposes. A common quality control procedure in these groups is to
+    compare empirical genotype frequencies against those predicted by
+    Mendelian segregation, where SNPs detected to have “segregation
+    distortion” are discarded. However, current tests for segregation
+    distortion are insufficient in that they do not account for double
+    reduction and preferential pairing, two meiotic processes in
+    polyploids that naturally change gamete frequencies, leading these
+    tests to detect segregation distortion too often. Current tests also
+    do not account for genotype uncertainty, again leading these tests
+    to detect segregation distortion too often. Here, we incorporate
+    double reduction, preferential pairing, and genotype uncertainty in
+    likelihood ratio and Bayesian tests for segregation distortion. Our
+    methods are implemented in a user-friendly R package, `menbayes`. We
+    demonstrate the superiority of our methods to those currently used
+    in the literature on both simulations and real data.
 
 ## Master’s Theses:
 
@@ -171,13 +190,16 @@ National Science Foundation.
   - This package implements the exact tests for random mating in
     autotetraploids described in Matoka Nana (2023). This is joint work
     with Karene Matoka Nana.
-- The `menbayes` R package
+- The `menbayes` R package <https://github.com/dcgerard/menbayes>
+  - Provides a suite of tests for segregation distortion in experimental
+    polyploid populations (for now, just tetraploids). This is under
+    different assumptions of meiosis. These methods are described in
+    Gerard, Thakkar, and Ferrão (2024).
+- The `menbayesAlpha` R package
   ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)):
-  <https://github.com/gerardlab/menbayes>
-  - Provides a suite of methods for Bayesian tests for Mendelian
-    segregation in experimental polyploid populations (for now, just
-    tetraploids). This is under different assumptions of meiosis. These
-    methods are described in Thakkar (2023).
+  <https://github.com/gerardlab/menbayesAlpha>
+  - This is the initial version of the `menbayes` package. These methods
+    are described in Thakkar (2023).
 
 ## Reproducible Research
 
@@ -197,6 +219,11 @@ National Science Foundation.
   <https://github.com/dcgerard/hwesupp>
   - This code repository reproduces all of the results from
     Gerard (2022) in the form of an interactive R markdown file.
+- Results from Gerard, Thakkar, and Ferrão (2024):
+  <https://github.com/dcgerard/mbanalysis>
+  - - This code repository reproduces all of the results from Gerard,
+      Thakkar, and Ferrão (2024), including simulations and real-data
+      analyses.
 - Results from Matoka Nana (2023):
   [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474)
   <https://github.com/gerardlab/rmexact_analysis>
@@ -305,6 +332,14 @@ Ecology Resources* 23 (8): 1812–22.
 ———. 2023b. “Double Reduction Estimation and Equilibrium Tests in
 Natural Autopolyploid Populations.” *Biometrics* 79 (3): 2143–56.
 <https://doi.org/10.1111/biom.13722>.
+
+</div>
+
+<div id="ref-gerard2024tests" class="csl-entry">
+
+Gerard, David, Mira Thakkar, and Luis Felipe V. Ferrão. 2024. “Tests for
+Segregation Distortion in Tetraploid F1 Populations.” *bioRxiv*.
+<https://doi.org/10.1101/2024.02.07.579361>.
 
 </div>
 

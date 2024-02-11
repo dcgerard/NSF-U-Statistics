@@ -31,6 +31,9 @@ This repository contains material based upon work supported by the National Scie
 - @gerard2022comment: Read the paper [doi:10.3389/fgene.2022.1027209](https://doi.org/10.3389/fgene.2022.1027209) or the preprint version [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
     - **Abstract**: Three similar manuscripts, by many of the same authors, were recently published describing methods for Hardy-Weinberg equilibrium and random mating testing in autotetraploids [Sun, et al. *Trends in Genetics*, 37(6), 2021. [doi:10.1016/j.tig.2020.11.006](https://doi.org/10.1016/j.tig.2020.11.006)], autohexaploids [Wang, et al. *Horticulture Research*, 9, 2022. [doi:10.1093/hr/uhac104](https://doi.org/10.1093/hr/uhac104)], and autooctoploids [Wang, et al. *Frontiers in Genetics*, 12, 2021. [doi:10.3389/fgene.2021.794907](https://doi.org/10.3389/fgene.2021.794907)]. We found issues with these manuscripts, which we detail here. The main problems that we see are (i) extensive mistakes and implementation errors, (ii) confusion between random mating and equilibrium, (iii) confusion between allo- and autopolyploid inheritance, and (iv) poor hypothesis testing approaches. We provide examples and simulations when appropriate. All of our results are open and reproducible.
     
+- @gerard2024tests: Read the preprint [doi:10.1101/2024.02.07.579361](https://doi.org/10.1101/2024.02.07.579361).
+    - **Abstract**: Genotype data from tetraploid F1 populations are often collected in breeding programs for mapping and genomic selection purposes. A common quality control procedure in these groups is to compare empirical genotype frequencies against those predicted by Mendelian segregation, where SNPs detected to have "segregation distortion" are discarded. However, current tests for segregation distortion are insufficient in that they do not account for double reduction and preferential pairing, two meiotic processes in polyploids that naturally change gamete frequencies, leading these tests to detect segregation distortion too often. Current tests also do not account for genotype uncertainty, again leading these tests to detect segregation distortion too often. Here, we incorporate double reduction, preferential pairing, and genotype uncertainty in likelihood ratio and Bayesian tests for segregation distortion. Our methods are implemented in a user-friendly R package, `menbayes`. We demonstrate the superiority of our methods to those currently used in the literature on both simulations and real data.
+    
 ## Master's Theses:
 
 - @matokanana2023exact: Read the thesis [doi:10.57912/23504199](https://doi.org/10.57912/23504199) or [ProQuest:2808426065](https://www.proquest.com/docview/2808426065)
@@ -64,11 +67,12 @@ This repository contains material based upon work supported by the National Scie
     
 - The `rmexact` R package ([doi:10.5281/zenodo.7671765](https://doi.org/10.5281/zenodo.7671765)): <https://github.com/gerardlab/rmexact>
     - This package implements the exact tests for random mating in autotetraploids described in @matokanana2023exact. This is joint work with Karene Matoka Nana.
+
+- The `menbayes` R package <https://github.com/dcgerard/menbayes>
+    - Provides a suite of tests for segregation distortion in experimental polyploid populations (for now, just tetraploids). This is under different assumptions of meiosis. These methods are described in @gerard2024tests.
     
-- The `menbayes` R package ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)): <https://github.com/gerardlab/menbayes>
-    - Provides a suite of methods for Bayesian tests for Mendelian segregation
-in experimental polyploid populations (for now, just tetraploids). This
-is under different assumptions of meiosis. These methods are described in @thakkar2023bayesian.
+- The `menbayesAlpha` R package ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)): <https://github.com/gerardlab/menbayesAlpha>
+    - This is the initial version of the `menbayes` package. These methods are described in @thakkar2023bayesian.
 
 ## Reproducible Research
 
@@ -83,6 +87,9 @@ is under different assumptions of meiosis. These methods are described in @thakk
 - Results from @gerard2022comment:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205) <https://github.com/dcgerard/hwesupp>
     - This code repository reproduces all of the results from @gerard2022comment in the form of an interactive R markdown file.
+    
+- Results from @gerard2024tests: <https://github.com/dcgerard/mbanalysis>
+    - - This code repository reproduces all of the results from @gerard2024tests, including simulations and real-data analyses.
     
 - Results from @matokanana2023exact: [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474) <https://github.com/gerardlab/rmexact_analysis>
     - This code repository reproduces all of the results from @matokanana2023exact, including simulations and real-data analyses.
