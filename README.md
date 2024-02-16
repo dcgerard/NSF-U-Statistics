@@ -281,6 +281,21 @@ National Science Foundation.
     January 2024.
     <https://www.polyploids.org/sites/default/files/2024-01/f1pres.pdf>
 
+- [Tools for Polyploids 2024 Workshop
+  Poster](https://www.polyploids.org/sites/default/files/webform/presentation_submission_form_202/1300/TfP_digital_poster_Conover.mp4):
+  We collaborated with researchers from the University of Arizona who
+  incorporated the genotype frequency model from Gerard (2023a) into
+  their method using pangenomes to reduce reference bias in
+  allopolyploid populations. You can see Justin’s presentation on the
+  conference website.
+
+  - Conover, Justin, David Gerard, Ryan Gutenkunst, and Michael Barker.
+    “Variation Graph Pangenomes Improve Read Mapping and SNP Calling
+    Accuracy in Divergent Diploid and Allopolyploid Populations.” Tools
+    for Genomics-Assisted Breeding in Polyploids Workshop, San Diego,
+    California, 10–11 January 2024. \[[Presentation
+    Link](https://www.polyploids.org/sites/default/files/webform/presentation_submission_form_202/1300/TfP_digital_poster_Conover.mp4)\]
+
 ## Education Materials
 
 - [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
