@@ -118,6 +118,9 @@ This repository contains material based upon work supported by the National Scie
   
 - [Tools for Polyploids 2024 Workshop Poster](https://www.polyploids.org/sites/default/files/webform/presentation_submission_form_202/1300/TfP_digital_poster_Conover.mp4): We collaborated with researchers from the University of Arizona who incorporated the genotype frequency model from @gerard2023bayesian into their method using pangenomes to reduce reference bias in allopolyploid populations. You can see Justin's presentation on the conference website.
   - Conover, Justin, David Gerard, Ryan Gutenkunst, and Michael Barker. "Variation Graph Pangenomes Improve Read Mapping and SNP Calling Accuracy in Divergent Diploid and Allopolyploid Populations." Tools for Genomics-Assisted Breeding in Polyploids Workshop, San Diego, California, 10--11 January 2024. [[Presentation Link](https://www.polyploids.org/sites/default/files/webform/presentation_submission_form_202/1300/TfP_digital_poster_Conover.mp4)]
+  
+- [2024 Mathias Research Conference Poster](https://zenodo.org/doi/10.5281/zenodo.10961701): This poster was presented by Alexis (Lexie) Tyson at the 2024 Mathias Student Research Conference at American University. 
+  - Tyson, A., and Gerard, D. (2024). "Tests for Triploid Hardy-Weinberg Proportions". Robyn Rafferty Mathias Student Research Conference, Washington, DC. <https://doi.org/10.5281/zenodo.10961702>
 
 ## Education Materials
 

@@ -296,6 +296,15 @@ National Science Foundation.
     California, 10–11 January 2024. \[[Presentation
     Link](https://www.polyploids.org/sites/default/files/webform/presentation_submission_form_202/1300/TfP_digital_poster_Conover.mp4)\]
 
+- [2024 Mathias Research Conference
+  Poster](https://zenodo.org/doi/10.5281/zenodo.10961701): This poster
+  was presented by Alexis (Lexie) Tyson at the 2024 Mathias Student
+  Research Conference at American University.
+
+  - Tyson, A., and Gerard, D. (2024). “Tests for Triploid Hardy-Weinberg
+    Proportions”. Robyn Rafferty Mathias Student Research Conference,
+    Washington, DC. <https://doi.org/10.5281/zenodo.10961702>
+
 ## Education Materials
 
 - [Advanced R Course Materials](https://dcgerard.github.io/advancedr/)
