@@ -190,7 +190,9 @@ National Science Foundation.
   - This package implements the exact tests for random mating in
     autotetraploids described in Matoka Nana (2023). This is joint work
     with Karene Matoka Nana.
-- The `menbayes` R package <https://github.com/dcgerard/menbayes>
+- The `menbayes` R package
+  ([doi:10.5281/zenodo.12189055](https://www.doi.org/10.5281/zenodo.12189055))
+  <https://github.com/dcgerard/menbayes>
   - Provides a suite of tests for segregation distortion in experimental
     polyploid populations (for now, just tetraploids). This is under
     different assumptions of meiosis. These methods are described in
@@ -220,10 +222,11 @@ National Science Foundation.
   - This code repository reproduces all of the results from
     Gerard (2022) in the form of an interactive R markdown file.
 - Results from Gerard, Thakkar, and Ferrão (2024):
+  [![DOI](https://zenodo.org/badge/743714317.svg)](https://www.doi.org/10.5281/zenodo.12532001)
   <https://github.com/dcgerard/mbanalysis>
-  - - This code repository reproduces all of the results from Gerard,
-      Thakkar, and Ferrão (2024), including simulations and real-data
-      analyses.
+  - This code repository reproduces all of the results from Gerard,
+    Thakkar, and Ferrão (2024), including simulations and real-data
+    analyses.
 - Results from Matoka Nana (2023):
   [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474)
   <https://github.com/gerardlab/rmexact_analysis>
@@ -333,7 +336,8 @@ National Science Foundation.
 
 ## References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
 
 <div id="ref-gerard2022comment" class="csl-entry">
 

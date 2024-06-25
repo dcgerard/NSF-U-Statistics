@@ -68,7 +68,7 @@ This repository contains material based upon work supported by the National Scie
 - The `rmexact` R package ([doi:10.5281/zenodo.7671765](https://doi.org/10.5281/zenodo.7671765)): <https://github.com/gerardlab/rmexact>
     - This package implements the exact tests for random mating in autotetraploids described in @matokanana2023exact. This is joint work with Karene Matoka Nana.
 
-- The `menbayes` R package <https://github.com/dcgerard/menbayes>
+- The `menbayes` R package ([doi:10.5281/zenodo.12189055](https://www.doi.org/10.5281/zenodo.12189055)) <https://github.com/dcgerard/menbayes>
     - Provides a suite of tests for segregation distortion in experimental polyploid populations (for now, just tetraploids). This is under different assumptions of meiosis. These methods are described in @gerard2024tests.
     
 - The `menbayesAlpha` R package ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)): <https://github.com/gerardlab/menbayesAlpha>
@@ -88,8 +88,8 @@ This repository contains material based upon work supported by the National Scie
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7019205.svg)](https://doi.org/10.5281/zenodo.7019205) <https://github.com/dcgerard/hwesupp>
     - This code repository reproduces all of the results from @gerard2022comment in the form of an interactive R markdown file.
     
-- Results from @gerard2024tests: <https://github.com/dcgerard/mbanalysis>
-    - - This code repository reproduces all of the results from @gerard2024tests, including simulations and real-data analyses.
+- Results from @gerard2024tests: [![DOI](https://zenodo.org/badge/743714317.svg)](https://www.doi.org/10.5281/zenodo.12532001) <https://github.com/dcgerard/mbanalysis>
+    - This code repository reproduces all of the results from @gerard2024tests, including simulations and real-data analyses.
     
 - Results from @matokanana2023exact: [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474) <https://github.com/gerardlab/rmexact_analysis>
     - This code repository reproduces all of the results from @matokanana2023exact, including simulations and real-data analyses.
