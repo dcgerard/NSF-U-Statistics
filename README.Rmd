@@ -58,6 +58,19 @@ This repository contains material based upon work supported by the National Scie
       several rounds of random mating, given rates of double
       reduction. You can read about these methods in @gerard2023double 
       and @gerard2023bayesian.
+      
+- The `segtest` R package: <https://cran.r-project.org/package=segtest>
+    - Likelihood ratio tests for segregation distortion in F1 populations of
+      tetraploids under various assumptions of meiosis. These methods are valid
+      for different types of polyploids (auto, allo, or segmental)
+      at fixed or unknown levels of double reduction and/or preferential 
+      pairing. Methods are available to account for genotype uncertainty 
+      through the use of genotype likelihoods. Parent genotypes may either
+      be known, unknown, or their uncertainty accounted for through 
+      genotype likelihoods. Parallelization support is provided through the 
+      `{future}` package. Functions are provided that format the output from
+      `{updog}` so that SNPs can be easily checked for segregation distortion.
+      All of these methods are described in @gerard2024tests.
 
 - The `phwelike` R package ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)): <https://github.com/dcgerard/phwelike> 
     - This package takes the methods developed and written by @jiang2021computational and implements them in the form of an R package.  This will allow researchers, such as myself, to better compare our methods against those of @jiang2021computational. These evaluations were performed in @gerard2023double. I would recommend you not use this package and use the `hwep` package instead (https://cran.r-project.org/package=hwep).

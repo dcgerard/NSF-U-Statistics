@@ -166,6 +166,19 @@ National Science Foundation.
     frequencies at equilibrium, or after one or several rounds of random
     mating, given rates of double reduction. You can read about these
     methods in Gerard (2023b) and Gerard (2023a).
+- The `segtest` R package: <https://cran.r-project.org/package=segtest>
+  - Likelihood ratio tests for segregation distortion in F1 populations
+    of tetraploids under various assumptions of meiosis. These methods
+    are valid for different types of polyploids (auto, allo, or
+    segmental) at fixed or unknown levels of double reduction and/or
+    preferential pairing. Methods are available to account for genotype
+    uncertainty through the use of genotype likelihoods. Parent
+    genotypes may either be known, unknown, or their uncertainty
+    accounted for through genotype likelihoods. Parallelization support
+    is provided through the `{future}` package. Functions are provided
+    that format the output from `{updog}` so that SNPs can be easily
+    checked for segregation distortion. All of these methods are
+    described in Gerard, Thakkar, and Ferrão (2024).
 - The `phwelike` R package
   ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
   <https://github.com/dcgerard/phwelike>
