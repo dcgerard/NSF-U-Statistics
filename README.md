@@ -82,8 +82,10 @@ National Science Foundation.
     inheritance, and (iv) poor hypothesis testing approaches. We provide
     examples and simulations when appropriate. All of our results are
     open and reproducible.
-- Gerard, Thakkar, and Ferrão (2024): Read the preprint
-  [doi:10.1101/2024.02.07.579361](https://doi.org/10.1101/2024.02.07.579361).
+- Gerard, Thakkar, and Ferrão (2025): Read the paper
+  [doi:10.1007/s00122-025-04816-z](https://doi.org/10.1007/s00122-025-04816-z)
+  or the preprint version
+  [bioRxiv2024.02.07.579361](https://doi.org/10.1101/2024.02.07.579361).
   - **Abstract**: Genotype data from tetraploid F1 populations are often
     collected in breeding programs for mapping and genomic selection
     purposes. A common quality control procedure in these groups is to
@@ -178,7 +180,7 @@ National Science Foundation.
     is provided through the `{future}` package. Functions are provided
     that format the output from `{updog}` so that SNPs can be easily
     checked for segregation distortion. All of these methods are
-    described in Gerard, Thakkar, and Ferrão (2024).
+    described in Gerard, Thakkar, and Ferrão (2025).
 - The `phwelike` R package
   ([doi:10.5281/zenodo.5531955](https://doi.org/10.5281/zenodo.5531955)):
   <https://github.com/dcgerard/phwelike>
@@ -209,7 +211,9 @@ National Science Foundation.
   - Provides a suite of tests for segregation distortion in experimental
     polyploid populations (for now, just tetraploids). This is under
     different assumptions of meiosis. These methods are described in
-    Gerard, Thakkar, and Ferrão (2024).
+    Gerard, Thakkar, and Ferrão (2025). The likelihood ratio version of
+    these methods, along with helper functions for parallelization, are
+    implemented in the `segtest` package on CRAN.
 - The `menbayesAlpha` R package
   ([doi:10.5281/zenodo.8124363](https://doi.org/10.5281/zenodo.8124363)):
   <https://github.com/gerardlab/menbayesAlpha>
@@ -234,11 +238,11 @@ National Science Foundation.
   <https://github.com/dcgerard/hwesupp>
   - This code repository reproduces all of the results from
     Gerard (2022) in the form of an interactive R markdown file.
-- Results from Gerard, Thakkar, and Ferrão (2024):
+- Results from Gerard, Thakkar, and Ferrão (2025):
   [![DOI](https://zenodo.org/badge/743714317.svg)](https://www.doi.org/10.5281/zenodo.12532001)
   <https://github.com/dcgerard/mbanalysis>
   - This code repository reproduces all of the results from Gerard,
-    Thakkar, and Ferrão (2024), including simulations and real-data
+    Thakkar, and Ferrão (2025), including simulations and real-data
     analyses.
 - Results from Matoka Nana (2023):
   [![DOI](https://zenodo.org/badge/599259474.svg)](https://zenodo.org/badge/latestdoi/599259474)
@@ -376,11 +380,12 @@ Natural Autopolyploid Populations.” *Biometrics* 79 (3): 2143–56.
 
 </div>
 
-<div id="ref-gerard2024tests" class="csl-entry">
+<div id="ref-gerard2025tests" class="csl-entry">
 
-Gerard, David, Mira Thakkar, and Luis Felipe V. Ferrão. 2024. “Tests for
-Segregation Distortion in Tetraploid F1 Populations.” *bioRxiv*.
-<https://doi.org/10.1101/2024.02.07.579361>.
+Gerard, David, Mira Thakkar, and Luis Felipe V Ferrão. 2025. “Tests for
+Segregation Distortion in Tetraploid F1 Populations.” *Theoretical and
+Applied Genetics* 138 (30): 1–13.
+<https://doi.org/10.1007/s00122-025-04816-z>.
 
 </div>
 
